@@ -28,36 +28,78 @@
                 android:id="@+id/scoreTeamA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:padding="4dp"
+                android:padding="1dp"
                 android:text="0"
-                android:textSize="54sp"
-                android:fontFamily="sans-serif"/>
+                android:textSize="54sp" />
 
             <Button
                 android:id="@+id/threePointsA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:text="+3 PONTOS" />
 
             <Button
                 android:id="@+id/twoPointsA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:text="+2 PONTOS" />
+
 
             <Button
                 android:id="@+id/freeShotA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:text="Tiro Livre" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/teamAfouls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Faltas"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/foulsTeamA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="0"
+                android:textSize="44sp" />
+
+            <Button
+                android:id="@+id/addfoulsA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="+1 Falta" />
+
+            <Button
+                android:id="@+id/foulsZeroA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="Zerar faltas" />
+
         </LinearLayout>
 
         <View
-            android:layout_width="1dp"
+            android:layout_width="2dp"
             android:layout_height="match_parent"
             android:background="@android:color/darker_gray"
             android:layout_marginTop="16dp"/>
@@ -83,7 +125,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:padding="4dp"
+                android:padding="1dp"
                 android:text="0"
                 android:textSize="54sp"
                 android:fontFamily="sans-serif"/>
@@ -92,22 +134,62 @@
                 android:id="@+id/threePointsB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:text="+3 PONTOS" />
 
             <Button
                 android:id="@+id/twoPointsB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:text="+2 PONTOS" />
 
             <Button
                 android:id="@+id/freeShotB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:text="Tiro Livre" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/teamBfouls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Faltas"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/foulsTeamB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="0"
+                android:textSize="44sp" />
+
+            <Button
+                android:id="@+id/addfoulsB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="+1 Falta" />
+
+            <Button
+                android:id="@+id/foulsZeroB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="Zerar faltas" />
         </LinearLayout>
 
     </LinearLayout>
