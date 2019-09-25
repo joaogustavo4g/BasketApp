@@ -96,7 +96,6 @@ class MainActivity : AppCompatActivity() {
             pTeamA.text = scoreA.toString()
             scoreB = 0
             pTeamB.text = scoreB.toString()
-
             // Used <Toast> to display something similar to a popUp, warning that the score has been reset.
             Toast.makeText(this,"Score restarted",Toast.LENGTH_SHORT).show()
     }
